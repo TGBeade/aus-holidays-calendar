@@ -35,19 +35,6 @@ jobs:
       - name: Build calendars
         run: python -m src.build
 
-      - name: Surface degraded sources
-        run: |
-          python - <<'PY'
-          import json, sys
-          s = json.load(open("docs/status.json"))
-          bad = [st for st, i in s.get("school", {}).items()
-                 if i.get("source") in ("seed", "none")]
-          if bad:
-              print(f"::warning title=School source degraded::"
-                    f"No live/cache data for: {', '.join(sorted(bad))}. "
-                    f"Check scrapers or add data/seed/<state>.csv.")
-          PY
-
       - name: Commit updated calendars
         run: |
           git config user.name  "github-actions[bot]"
@@ -59,3 +46,19 @@ jobs:
             git commit -m "chore: refresh calendars [skip ci]"
             git push
           fi
+
+      - name: Fail if any source degraded
+        run: |
+          python - <<'PY'
+          import json, sys
+          s = json.load(open("docs/status.json"))
+          bad = [st for st, i in s.get("school", {}).items()
+                 if i.get("source") in ("seed", "none")]
+          if bad:
+              print(f"::error title=School source degraded::"
+                    f"No live/cache data for: {', '.join(sorted(bad))}. "
+                    f"Calendars were still published from seed/cache. "
+                    f"Check scrapers or refresh data/seed/<state>.csv.")
+              sys.exit(1)
+          print("All sources healthy.")
+          PY
