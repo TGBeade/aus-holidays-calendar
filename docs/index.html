@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Holidays Calendar</title>
+<style>
+  :root {
+    --bg: #0f1216; --card: #171b21; --line: #262c34;
+    --ink: #e7ebf0; --dim: #9aa4b2; --accent: #6ea8fe; --ok: #3fb950;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.55 -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    padding: 2.5rem 1.25rem 4rem;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  .sub { color: var(--dim); margin: 0 0 2rem; }
+  h2 { font-size: 1.05rem; margin: 2.2rem 0 .75rem; }
+  .cal {
+    display: flex; align-items: center; gap: .75rem; flex-wrap: wrap;
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: .85rem 1rem; margin: .55rem 0;
+  }
+  .cal .name { font-weight: 600; }
+  .cal .name small { display: block; color: var(--dim); font-weight: 400; }
+  .cal .spacer { flex: 1; }
+  button, a.btn {
+    font: inherit; font-size: .85rem; font-weight: 600;
+    border: 1px solid var(--line); background: #202631; color: var(--ink);
+    border-radius: 8px; padding: .4rem .7rem; cursor: pointer; text-decoration: none;
+  }
+  a.btn.primary { background: var(--accent); color: #0b1220; border-color: transparent; }
+  button:hover, a.btn:hover { border-color: var(--accent); }
+  button.copied { color: var(--ok); border-color: var(--ok); }
+  details { background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: .4rem 1rem; margin: .55rem 0; }
+  summary { cursor: pointer; font-weight: 600; padding: .5rem 0; }
+  ol { margin: .3rem 0 1rem; padding-left: 1.3rem; }
+  code { background: #0b0e12; padding: .1rem .35rem; border-radius: 5px; font-size: .9em; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px,1fr)); gap: .5rem; }
+  .grid a { text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Australian Holidays Calendar</h1>
+  <p class="sub">Public &amp; school holidays for every state and territory, in one
+  subscribable calendar. Subscribe once and it stays up to date automatically.</p>
+
+  <h2>Recommended</h2>
+  <div class="cal" data-file="all-states.ics">
+    <span class="name">All states &mdash; everything
+      <small>Public + school holidays, every state/territory</small></span>
+    <span class="spacer"></span>
+    <a class="btn primary" data-webcal href="#">Subscribe</a>
+    <button data-copy>Copy link</button>
+  </div>
+
+  <h2>By category</h2>
+  <div class="cal" data-file="public-holidays.ics">
+    <span class="name">Public holidays only</span>
+    <span class="spacer"></span>
+    <a class="btn" data-webcal href="#">Subscribe</a>
+    <button data-copy>Copy link</button>
+  </div>
+  <div class="cal" data-file="school-holidays.ics">
+    <span class="name">School holidays only</span>
+    <span class="spacer"></span>
+    <a class="btn" data-webcal href="#">Subscribe</a>
+    <button data-copy>Copy link</button>
+  </div>
+
+  <h2>By state (state-specific + national holidays)</h2>
+  <div class="grid" id="states"></div>
+
+  <h2>How to subscribe</h2>
+  <details>
+    <summary>Outlook (new / web / Microsoft 365)</summary>
+    <ol>
+      <li>Copy the calendar link above.</li>
+      <li>In Outlook go to <strong>Calendar</strong> &rarr; <strong>Add calendar</strong>
+        &rarr; <strong>Subscribe from web</strong>.</li>
+      <li>Paste the link, give it a name, and select <strong>Import</strong>.</li>
+    </ol>
+    <p style="color:var(--dim)">Outlook refreshes internet calendars on its own
+    schedule (often several hours to a day) &mdash; fine for dates that change
+    once a year.</p>
+  </details>
+  <details>
+    <summary>Google Calendar</summary>
+    <ol>
+      <li>Copy the calendar link.</li>
+      <li><strong>Other calendars</strong> &rarr; <strong>+</strong> &rarr;
+        <strong>From URL</strong>, paste, <strong>Add calendar</strong>.</li>
+    </ol>
+  </details>
+  <details>
+    <summary>Apple Calendar (Mac / iPhone)</summary>
+    <ol>
+      <li>Tap <strong>Subscribe</strong> above, or copy the link.</li>
+      <li>Mac: <strong>File</strong> &rarr; <strong>New Calendar Subscription</strong>,
+        paste, <strong>Subscribe</strong>.</li>
+    </ol>
+  </details>
+</main>
+
+<script>
+  const states = ["ACT","NSW","NT","QLD","SA","TAS","VIC","WA"];
+  const abs = (rel) => new URL(rel, location.href).href;
+  const webcal = (rel) => abs(rel).replace(/^https?:/, "webcal:");
+
+  document.querySelectorAll(".cal").forEach(card => {
+    const file = card.dataset.file;
+    const sub = card.querySelector("[data-webcal]");
+    if (sub) sub.href = webcal(file);
+    const copy = card.querySelector("[data-copy]");
+    if (copy) copy.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(abs(file));
+      copy.textContent = "Copied \u2713"; copy.classList.add("copied");
+      setTimeout(() => { copy.textContent = "Copy link"; copy.classList.remove("copied"); }, 1600);
+    });
+  });
+
+  const grid = document.getElementById("states");
+  states.forEach(code => {
+    const a = document.createElement("a");
+    a.className = "btn"; a.textContent = code;
+    a.href = webcal("by-state/" + code + ".ics");
+    grid.appendChild(a);
+  });
+</script>
+</body>
+</html>

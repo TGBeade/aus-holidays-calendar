@@ -1,0 +1,555 @@
+[
+  {
+    "category": "school",
+    "end": "2026-01-01",
+    "start": "2026-01-01",
+    "state": "NSW",
+    "summary": "New Years' Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-01-26",
+    "start": "2026-01-26",
+    "state": "NSW",
+    "summary": "Australia Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-01-30",
+    "start": "2026-01-27",
+    "state": "NSW",
+    "summary": "Term 1 Week 1 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-01-27",
+    "start": "2026-01-27",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2026-01-28",
+    "start": "2026-01-28",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2026-01-29",
+    "start": "2026-01-29",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2026-01-30",
+    "start": "2026-01-30",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-06",
+    "start": "2026-02-02",
+    "state": "NSW",
+    "summary": "Term 1 Week 2 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-03",
+    "start": "2026-02-03",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-04",
+    "start": "2026-02-04",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-05",
+    "start": "2026-02-05",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-06",
+    "start": "2026-02-06",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-13",
+    "start": "2026-02-09",
+    "state": "NSW",
+    "summary": "Term 1 Week 3 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-20",
+    "start": "2026-02-16",
+    "state": "NSW",
+    "summary": "Term 1 Week 4 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-02-27",
+    "start": "2026-02-23",
+    "state": "NSW",
+    "summary": "Term 1 Week 5 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-03-06",
+    "start": "2026-03-02",
+    "state": "NSW",
+    "summary": "Term 1 Week 6 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-03-13",
+    "start": "2026-03-09",
+    "state": "NSW",
+    "summary": "Term 1 Week 7 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-03-23",
+    "start": "2026-03-11",
+    "state": "NSW",
+    "summary": "NAPLAN Online Test Window (11-23 March)"
+  },
+  {
+    "category": "school",
+    "end": "2026-03-20",
+    "start": "2026-03-16",
+    "state": "NSW",
+    "summary": "Term 1 Week 8 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-03-21",
+    "start": "2026-03-21",
+    "state": "NSW",
+    "summary": "Harmony Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-03-27",
+    "start": "2026-03-23",
+    "state": "NSW",
+    "summary": "Term 1 Week 9 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-02",
+    "start": "2026-03-30",
+    "state": "NSW",
+    "summary": "Term 1 Week 10 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-03",
+    "start": "2026-04-03",
+    "state": "NSW",
+    "summary": "Good Friday"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-05",
+    "start": "2026-04-05",
+    "state": "NSW",
+    "summary": "Easter Sunday"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-06",
+    "start": "2026-04-06",
+    "state": "NSW",
+    "summary": "Easter Monday"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-17",
+    "start": "2026-04-07",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-24",
+    "start": "2026-04-20",
+    "state": "NSW",
+    "summary": "Term 2 Week 1 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-20",
+    "start": "2026-04-20",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-21",
+    "start": "2026-04-21",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-04-25",
+    "start": "2026-04-25",
+    "state": "NSW",
+    "summary": "ANZAC Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-05-01",
+    "start": "2026-04-27",
+    "state": "NSW",
+    "summary": "Term 2 Week 2 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-05-03",
+    "start": "2026-05-01",
+    "state": "NSW",
+    "summary": "Selective High School and Opportunity Class Placement Test"
+  },
+  {
+    "category": "school",
+    "end": "2026-05-08",
+    "start": "2026-05-04",
+    "state": "NSW",
+    "summary": "Term 2 Week 3 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-05-15",
+    "start": "2026-05-11",
+    "state": "NSW",
+    "summary": "Term 2 Week 4 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-05-22",
+    "start": "2026-05-18",
+    "state": "NSW",
+    "summary": "Term 2 Week 5 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-05-29",
+    "start": "2026-05-25",
+    "state": "NSW",
+    "summary": "Term 2 Week 6 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-05-26",
+    "start": "2026-05-26",
+    "state": "NSW",
+    "summary": "National Sorry Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-06-03",
+    "start": "2026-05-27",
+    "state": "NSW",
+    "summary": "National Reconciliation Week (27 May-3 June)"
+  },
+  {
+    "category": "school",
+    "end": "2026-06-05",
+    "start": "2026-06-01",
+    "state": "NSW",
+    "summary": "Term 2 Week 7 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-06-12",
+    "start": "2026-06-08",
+    "state": "NSW",
+    "summary": "Term 2 Week 8 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-06-08",
+    "start": "2026-06-08",
+    "state": "NSW",
+    "summary": "King's Birthday Holiday"
+  },
+  {
+    "category": "school",
+    "end": "2026-06-19",
+    "start": "2026-06-15",
+    "state": "NSW",
+    "summary": "Term 2 Week 9 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-06-26",
+    "start": "2026-06-22",
+    "state": "NSW",
+    "summary": "Term 2 Week 10 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-07-03",
+    "start": "2026-06-29",
+    "state": "NSW",
+    "summary": "Term 2 Week 11 (11 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-07-17",
+    "start": "2026-07-06",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2026-07-12",
+    "start": "2026-07-05",
+    "state": "NSW",
+    "summary": "NAIDOC Week"
+  },
+  {
+    "category": "school",
+    "end": "2026-07-24",
+    "start": "2026-07-20",
+    "state": "NSW",
+    "summary": "Term 3 Week 1 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-07-20",
+    "start": "2026-07-20",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-07-31",
+    "start": "2026-07-27",
+    "state": "NSW",
+    "summary": "Term 3 Week 2 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-08-07",
+    "start": "2026-08-03",
+    "state": "NSW",
+    "summary": "Term 3 Week 3 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-08-07",
+    "start": "2026-08-03",
+    "state": "NSW",
+    "summary": "Education Week"
+  },
+  {
+    "category": "school",
+    "end": "2026-08-14",
+    "start": "2026-08-10",
+    "state": "NSW",
+    "summary": "Term 3 Week 4 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-08-21",
+    "start": "2026-08-17",
+    "state": "NSW",
+    "summary": "Term 3 Week 5 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-08-28",
+    "start": "2026-08-24",
+    "state": "NSW",
+    "summary": "Term 3 Week 6 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-09-04",
+    "start": "2026-08-31",
+    "state": "NSW",
+    "summary": "Term 3 Week 7 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-09-11",
+    "start": "2026-09-07",
+    "state": "NSW",
+    "summary": "Term 3 Week 8 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-09-18",
+    "start": "2026-09-14",
+    "state": "NSW",
+    "summary": "Term 3 Week 9 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-09-25",
+    "start": "2026-09-21",
+    "state": "NSW",
+    "summary": "Term 3 Week 10 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-09",
+    "start": "2026-09-28",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-05",
+    "start": "2026-10-05",
+    "state": "NSW",
+    "summary": "World Teachers' Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-05",
+    "start": "2026-10-05",
+    "state": "NSW",
+    "summary": "Labour Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-16",
+    "start": "2026-10-12",
+    "state": "NSW",
+    "summary": "Term 4 Week 1 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-12",
+    "start": "2026-10-12",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-23",
+    "start": "2026-10-19",
+    "state": "NSW",
+    "summary": "Term 4 Week 2 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-30",
+    "start": "2026-10-30",
+    "state": "NSW",
+    "summary": "Teachers' Day Australia"
+  },
+  {
+    "category": "school",
+    "end": "2026-10-30",
+    "start": "2026-10-26",
+    "state": "NSW",
+    "summary": "Term 4 Week 3 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-11-06",
+    "start": "2026-11-02",
+    "state": "NSW",
+    "summary": "Term 4 Week 4 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-11-11",
+    "start": "2026-11-11",
+    "state": "NSW",
+    "summary": "Remembrance Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-11-13",
+    "start": "2026-11-09",
+    "state": "NSW",
+    "summary": "Term 4 Week 5 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-11-20",
+    "start": "2026-11-16",
+    "state": "NSW",
+    "summary": "Term 4 Week 6 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-11-27",
+    "start": "2026-11-23",
+    "state": "NSW",
+    "summary": "Term 4 Week 7 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-12-04",
+    "start": "2026-11-30",
+    "state": "NSW",
+    "summary": "Term 4 Week 8 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-12-11",
+    "start": "2026-12-07",
+    "state": "NSW",
+    "summary": "Term 4 Week 9 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2026-12-17",
+    "start": "2026-12-14",
+    "state": "NSW",
+    "summary": "Term 4 Week 10 (10 Wk Term)"
+  },
+  {
+    "category": "school",
+    "end": "2027-01-27",
+    "start": "2026-12-18",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2026-12-25",
+    "start": "2026-12-25",
+    "state": "NSW",
+    "summary": "Christmas Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-12-26",
+    "start": "2026-12-26",
+    "state": "NSW",
+    "summary": "Boxing Day"
+  },
+  {
+    "category": "school",
+    "end": "2026-12-28",
+    "start": "2026-12-28",
+    "state": "NSW",
+    "summary": "Additional Public Holiday"
+  },
+  {
+    "category": "school",
+    "end": "2026-12-29",
+    "start": "2026-12-29",
+    "state": "NSW",
+    "summary": "Public Service Holiday"
+  }
+]

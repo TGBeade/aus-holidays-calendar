@@ -1,0 +1,41 @@
+{
+  "generated": "2026-07-21T00:25:36+00:00",
+  "public": {
+    "source": "holidays-lib",
+    "count": 347
+  },
+  "school": {
+    "ACT": {
+      "source": "live",
+      "count": 19
+    },
+    "NSW": {
+      "source": "live",
+      "count": 79
+    },
+    "NT": {
+      "source": "live",
+      "count": 23
+    },
+    "QLD": {
+      "source": "live",
+      "count": 24
+    },
+    "SA": {
+      "source": "live",
+      "count": 19
+    },
+    "TAS": {
+      "source": "live",
+      "count": 37
+    },
+    "VIC": {
+      "source": "live",
+      "count": 19
+    },
+    "WA": {
+      "source": "live",
+      "count": 23
+    }
+  }
+}
