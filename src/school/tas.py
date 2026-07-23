@@ -22,15 +22,22 @@ def fetch(years: range) -> list[HolidayEvent]:
 
     feed_events = base.events_from_ics(base.http_get(ics_url), "TAS", years)
     terms = [event for event in feed_events if TERM_EVENT_RE.match(event.summary)]
-    term_ranges = sorted({(event.start, event.end) for event in terms})
 
-    # Four terms per complete year are expected. Refuse suspicious feed data so
-    # resolve() uses the last-known-good cache rather than publishing bad breaks.
-    expected_minimum = 4 * len(years)
-    if len(term_ranges) < expected_minimum:
+    # The TAS feed lists term time in weekly fragments (each summarised
+    # "Term N ..."), not one event per term. Coalesce contiguous fragments back
+    # into whole terms first; otherwise breaks_from_terms() treats every
+    # weekend *between* weeks as a school-holiday break.
+    fragments = sorted({(event.start, event.end) for event in terms})
+    term_ranges = base.coalesce_ranges(fragments)
+
+    # After coalescing we expect ~4 whole terms per fully-covered year. School
+    # feeds only reach ~1-2 years out, so require at least one full year of
+    # terms; fewer means the scrape is broken and resolve() should fall back to
+    # the last-known-good cache rather than publish bad breaks.
+    if len(term_ranges) < 4:
         raise ValueError(
-            f"TAS feed contained only {len(term_ranges)} term ranges; "
-            f"expected at least {expected_minimum}"
+            f"TAS feed yielded only {len(term_ranges)} whole terms "
+            f"(from {len(fragments)} fragments); expected at least 4"
         )
 
     return base.breaks_from_terms(term_ranges, "TAS")
