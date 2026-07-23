@@ -116,37 +116,6 @@ def breaks_from_terms(
     return events
 
 
-def coalesce_ranges(
-    ranges: list[tuple[date, date]], max_gap_days: int = 4
-) -> list[tuple[date, date]]:
-    """Merge sorted inclusive (start, end) ranges that are contiguous or
-    separated by no more than `max_gap_days` into single spans.
-
-    Some upstream sources (e.g. TAS) publish term time in weekly fragments
-    rather than one event per term. Feeding those fragments straight into
-    `breaks_from_terms` produces a bogus 'holiday' for every weekend *between*
-    weeks. Coalescing first rebuilds the whole term, so only the genuine
-    between-term breaks remain.
-
-    Australian public-school terms have no mid-term break, and real holiday
-    breaks are at least ~2 weeks, so a 4-day threshold (a weekend, plus the
-    odd public-holiday Monday) cleanly separates 'same term' from 'new term'.
-    """
-    from datetime import timedelta
-
-    ranges = sorted(ranges)
-    if not ranges:
-        return []
-    merged: list[list[date]] = [list(ranges[0])]
-    for start, end in ranges[1:]:
-        if start <= merged[-1][1] + timedelta(days=max_gap_days + 1):
-            if end > merged[-1][1]:
-                merged[-1][1] = end
-        else:
-            merged.append([start, end])
-    return [(s, e) for s, e in merged]
-
-
 _MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
