@@ -1,32 +1,29 @@
 {
-  "generated": "2026-07-27T21:49:27+00:00",
+  "generated": "2026-08-03T21:52:02+00:00",
   "public": {
     "source": "holidays-lib",
     "count": 347
   },
   "school": {
     "ACT": {
-      "source": "cache",
-      "count": 19,
-      "error": "live fetch returned no events"
+      "source": "live",
+      "count": 19
     },
     "NSW": {
       "source": "live",
       "count": 37
     },
     "NT": {
-      "source": "cache",
-      "count": 23,
-      "error": "live fetch returned no events"
+      "source": "live",
+      "count": 23
     },
     "QLD": {
       "source": "live",
       "count": 24
     },
     "SA": {
-      "source": "cache",
-      "count": 19,
-      "error": "live fetch returned no events"
+      "source": "live",
+      "count": 19
     },
     "TAS": {
       "source": "live",

@@ -385,12 +385,12 @@ CATEGORIES:public,QLD
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[VIC] Grand Final Day
+SUMMARY:[VIC] Friday before the AFL Grand Final
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 DTSTAMP:20240101T000000Z
-UID:public-VIC-grand-final-day-20260925-20260925@aus-holidays-calendar.git
- hub.io
+UID:public-VIC-friday-before-the-afl-grand-final-20260925-20260925@aus-hol
+ idays-calendar.github.io
 CATEGORIES:public,VIC
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1041,12 +1041,12 @@ CATEGORIES:public,QLD
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[VIC] Grand Final Day
+SUMMARY:[VIC] Friday before the AFL Grand Final
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270925
 DTSTAMP:20240101T000000Z
-UID:public-VIC-grand-final-day-20270924-20270924@aus-holidays-calendar.git
- hub.io
+UID:public-VIC-friday-before-the-afl-grand-final-20270924-20270924@aus-hol
+ idays-calendar.github.io
 CATEGORIES:public,VIC
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1775,12 +1775,12 @@ CATEGORIES:public,WA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[VIC] Grand Final Day
+SUMMARY:[VIC] Friday before the AFL Grand Final
 DTSTART;VALUE=DATE:20280929
 DTEND;VALUE=DATE:20280930
 DTSTAMP:20240101T000000Z
-UID:public-VIC-grand-final-day-20280929-20280929@aus-holidays-calendar.git
- hub.io
+UID:public-VIC-friday-before-the-afl-grand-final-20280929-20280929@aus-hol
+ idays-calendar.github.io
 CATEGORIES:public,VIC
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2279,12 +2279,12 @@ CATEGORIES:public,WA
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[VIC] Grand Final Day
+SUMMARY:[VIC] Friday before the AFL Grand Final
 DTSTART;VALUE=DATE:20290928
 DTEND;VALUE=DATE:20290929
 DTSTAMP:20240101T000000Z
-UID:public-VIC-grand-final-day-20290928-20290928@aus-holidays-calendar.git
- hub.io
+UID:public-VIC-friday-before-the-afl-grand-final-20290928-20290928@aus-hol
+ idays-calendar.github.io
 CATEGORIES:public,VIC
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2773,12 +2773,12 @@ CATEGORIES:public,QLD
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[VIC] Grand Final Day
+SUMMARY:[VIC] Friday before the AFL Grand Final
 DTSTART;VALUE=DATE:20300927
 DTEND;VALUE=DATE:20300928
 DTSTAMP:20240101T000000Z
-UID:public-VIC-grand-final-day-20300927-20300927@aus-holidays-calendar.git
- hub.io
+UID:public-VIC-friday-before-the-afl-grand-final-20300927-20300927@aus-hol
+ idays-calendar.github.io
 CATEGORIES:public,VIC
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -3277,12 +3277,12 @@ CATEGORIES:public,QLD
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[VIC] Grand Final Day
+SUMMARY:[VIC] Friday before the AFL Grand Final
 DTSTART;VALUE=DATE:20310926
 DTEND;VALUE=DATE:20310927
 DTSTAMP:20240101T000000Z
-UID:public-VIC-grand-final-day-20310926-20310926@aus-holidays-calendar.git
- hub.io
+UID:public-VIC-friday-before-the-afl-grand-final-20310926-20310926@aus-hol
+ idays-calendar.github.io
 CATEGORIES:public,VIC
 TRANSP:TRANSPARENT
 END:VEVENT
