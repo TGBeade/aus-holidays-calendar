@@ -159,5 +159,33 @@
     "start": "2031-09-27",
     "state": "WA",
     "summary": "School holidays"
+  },
+  {
+    "category": "school",
+    "end": "2032-02-01",
+    "start": "2031-12-18",
+    "state": "WA",
+    "summary": "School holidays"
+  },
+  {
+    "category": "school",
+    "end": "2032-04-26",
+    "start": "2032-04-10",
+    "state": "WA",
+    "summary": "School holidays"
+  },
+  {
+    "category": "school",
+    "end": "2032-07-18",
+    "start": "2032-07-03",
+    "state": "WA",
+    "summary": "School holidays"
+  },
+  {
+    "category": "school",
+    "end": "2032-10-10",
+    "start": "2032-09-25",
+    "state": "WA",
+    "summary": "School holidays"
   }
 ]
