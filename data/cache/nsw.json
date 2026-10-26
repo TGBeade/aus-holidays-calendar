@@ -257,5 +257,306 @@
     "start": "2026-12-29",
     "state": "NSW",
     "summary": "Public Service Holiday"
+  },
+  {
+    "category": "school",
+    "end": "2027-01-01",
+    "start": "2027-01-01",
+    "state": "NSW",
+    "summary": "New Year's Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-01-26",
+    "start": "2027-01-26",
+    "state": "NSW",
+    "summary": "Australia Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-01-28",
+    "start": "2027-01-28",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2027-01-29",
+    "start": "2027-01-29",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-01",
+    "start": "2027-02-01",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-02",
+    "start": "2027-02-02",
+    "state": "NSW",
+    "summary": "School Development Day (E)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-03",
+    "start": "2027-02-03",
+    "state": "NSW",
+    "summary": "Term 1 first day for students (E)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-04",
+    "start": "2027-02-04",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-05",
+    "start": "2027-02-05",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-08",
+    "start": "2027-02-08",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-09",
+    "start": "2027-02-09",
+    "state": "NSW",
+    "summary": "School Development Day (W)"
+  },
+  {
+    "category": "school",
+    "end": "2027-02-10",
+    "start": "2027-02-10",
+    "state": "NSW",
+    "summary": "Term 1 first day for students (W)"
+  },
+  {
+    "category": "school",
+    "end": "2027-03-22",
+    "start": "2027-03-10",
+    "state": "NSW",
+    "summary": "NAPLAN Online test window (10-22 March)"
+  },
+  {
+    "category": "school",
+    "end": "2027-03-21",
+    "start": "2027-03-15",
+    "state": "NSW",
+    "summary": "Harmony Week"
+  },
+  {
+    "category": "school",
+    "end": "2027-03-26",
+    "start": "2027-03-26",
+    "state": "NSW",
+    "summary": "Good Friday"
+  },
+  {
+    "category": "school",
+    "end": "2027-03-28",
+    "start": "2027-03-28",
+    "state": "NSW",
+    "summary": "Easter Sunday"
+  },
+  {
+    "category": "school",
+    "end": "2027-03-29",
+    "start": "2027-03-29",
+    "state": "NSW",
+    "summary": "Easter Monday"
+  },
+  {
+    "category": "school",
+    "end": "2027-04-23",
+    "start": "2027-04-12",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2027-04-25",
+    "start": "2027-04-25",
+    "state": "NSW",
+    "summary": "Anzac Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-04-26",
+    "start": "2027-04-26",
+    "state": "NSW",
+    "summary": "Anzac Day (observed)"
+  },
+  {
+    "category": "school",
+    "end": "2027-04-27",
+    "start": "2027-04-27",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-04-28",
+    "start": "2027-04-28",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-04-29",
+    "start": "2027-04-29",
+    "state": "NSW",
+    "summary": "Term 2 first day for students"
+  },
+  {
+    "category": "school",
+    "end": "2027-05-26",
+    "start": "2027-05-26",
+    "state": "NSW",
+    "summary": "National Sorry Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-06-03",
+    "start": "2027-05-27",
+    "state": "NSW",
+    "summary": "National Reconciliation Week (27 May-3 June)"
+  },
+  {
+    "category": "school",
+    "end": "2027-06-14",
+    "start": "2027-06-14",
+    "state": "NSW",
+    "summary": "King's Birthday"
+  },
+  {
+    "category": "school",
+    "end": "2027-07-16",
+    "start": "2027-07-05",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2027-07-11",
+    "start": "2027-07-04",
+    "state": "NSW",
+    "summary": "NAIDOC Week (4-11 July)"
+  },
+  {
+    "category": "school",
+    "end": "2027-07-19",
+    "start": "2027-07-19",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-07-20",
+    "start": "2027-07-20",
+    "state": "NSW",
+    "summary": "Term 3 first day for students"
+  },
+  {
+    "category": "school",
+    "end": "2027-08-06",
+    "start": "2027-08-02",
+    "state": "NSW",
+    "summary": "Public Education Week"
+  },
+  {
+    "category": "school",
+    "end": "2027-10-08",
+    "start": "2027-09-27",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2027-10-04",
+    "start": "2027-10-04",
+    "state": "NSW",
+    "summary": "Labour Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-10-11",
+    "start": "2027-10-11",
+    "state": "NSW",
+    "summary": "Term 4 first day for students"
+  },
+  {
+    "category": "school",
+    "end": "2027-10-29",
+    "start": "2027-10-29",
+    "state": "NSW",
+    "summary": "World Teachers' Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-11-11",
+    "start": "2027-11-11",
+    "state": "NSW",
+    "summary": "Remembrance Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-12-20",
+    "start": "2027-12-20",
+    "state": "NSW",
+    "summary": "School Development Day"
+  },
+  {
+    "category": "school",
+    "end": "2028-01-28",
+    "start": "2027-12-21",
+    "state": "NSW",
+    "summary": "School Holidays"
+  },
+  {
+    "category": "school",
+    "end": "2027-12-25",
+    "start": "2027-12-25",
+    "state": "NSW",
+    "summary": "Christmas Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-12-26",
+    "start": "2027-12-26",
+    "state": "NSW",
+    "summary": "Boxing Day"
+  },
+  {
+    "category": "school",
+    "end": "2027-12-27",
+    "start": "2027-12-27",
+    "state": "NSW",
+    "summary": "Christmas Day (observed)"
+  },
+  {
+    "category": "school",
+    "end": "2027-12-28",
+    "start": "2027-12-28",
+    "state": "NSW",
+    "summary": "Boxing Day (observed)"
+  },
+  {
+    "category": "school",
+    "end": "2027-12-29",
+    "start": "2027-12-29",
+    "state": "NSW",
+    "summary": "Public Service Holiday"
   }
 ]
